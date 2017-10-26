@@ -61,10 +61,6 @@ Temporary file size: 350M
 
 With in SLAM solution there are the following solutions. Tango is a basically a Dense visual SLAM using RGB-D Method and provides a stable estimation result by combining internal sensor information. In addition Apple's ARKit and Goolge's ARCore is basiclly a LSD-SLAM method.
 
-First Header                | Second Header
-----------------------------|-----------------------------
-Content from cell 1         | Content from cell 2
-Content in the first column | Content in the second column
 
 Name | Method | Map density | Global optimization | Loop closure
 -----| ------ | ----------- | ------------------- | -------------
