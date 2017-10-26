@@ -61,9 +61,13 @@ Temporary file size: 350M
 
 With in SLAM solution there are the following solutions. Tango is a basically a Dense visual SLAM using RGB-D Method and provides a stable estimation result by combining internal sensor information. In addition Apple's ARKit and Goolge's ARCore is basiclly a LSD-SLAM method.
 
+First Header                | Second Header
+----------------------------|-----------------------------
+Content from cell 1         | Content from cell 2
+Content in the first column | Content in the second column
 
 Name | Method | Map density | Global optimization | Loop closure
---- | --- | --- | --- | --- | ---
+-----| ------ | ----------- | ------------------- | -------------
 [Mono-SLAM](https://scholar.google.com/scholar?q=Davison%20AJ%20%282003%29%20Real-time%20simultaneous%20localisation%20and%20mapping%20with%20a%20single%20camera%20In%3A%20Proceedings%20of%20International%20Conference%20on%20Computer%20Vision%2C%201403%E2%80%931410.)  |  Feature |  Sparse |  No | No   
 [PTAM](https://scholar.google.com/scholar?q=Klein%20G%2C%20Murray%20DW%20%282007%29%20Parallel%20tracking%20and%20mapping%20for%20small%20AR%20workspaces%20In%3A%20Proceedngs%20of%20International%20Symposium%20on%20Mixed%20and%20Augmented%20Reality%2C%20225%E2%80%93234.) | Feature | Sparse | Yes | No
 [ORB-SLAM](https://scholar.google.com/scholar_lookup?title=ORB-SLAM%3A%20a%20versatile%20and%20accurate%20monocular%20SLAM%20system&author=R.%20Mur-Artal&author=JMM.%20Montiel&author=JD.%20Tard%C3%B3s&journal=IEEE%20Trans%20Robot&volume=31&issue=5&pages=1147-1163&publication_year=2015) | Feature | Sparse | Yes | Yes
@@ -82,7 +86,7 @@ A 10 sqm living room
 
 #### Hardware and software
 
-Asus Zenfone Tango AR 
+Asus Zenfone Tango AR
 
 Airsquire capturing tool
 
@@ -103,7 +107,7 @@ Accuracy: 2.5cm
 
 Three-dimensional laser scanning can be used to collect spatial location of points rapidly and abundantly, and obtain three-dimensional coordinates of the target surface.
 
-### Test Environment
+#### Test Environment
 
 The rock shelter is located in a region known as West Angeles in Western Australia. It is approximately 50m long, 20m deep and between 1.6 and 3m high. An interactive 360x180 panorama of the site can be experienced below.
 
